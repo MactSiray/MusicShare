@@ -1,18 +1,18 @@
 //
-//  ViewController.m
+//  MainViewController.m
 //  MusicShare
 //
 //  Created by shirai.makoto on 2015/12/14.
 //  Copyright © 2015年 MACT. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "MainViewController.h"
 
-@interface ViewController ()
+@interface MainViewController ()
 
 @end
 
-@implementation ViewController
+@implementation MainViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -23,5 +23,7 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
 
 @end
