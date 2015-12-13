@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C97F67CB1C1DC0C600427CDE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C97F67CA1C1DC0C600427CDE /* main.m */; };
+		C97F67CE1C1DC0C600427CDE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C97F67CD1C1DC0C600427CDE /* AppDelegate.m */; };
+		C97F67D11C1DC0C600427CDE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C97F67D01C1DC0C600427CDE /* ViewController.m */; };
+		C97F67D41C1DC0C600427CDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C97F67D21C1DC0C600427CDE /* Main.storyboard */; };
+		C97F67D61C1DC0C600427CDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C97F67D51C1DC0C600427CDE /* Assets.xcassets */; };
+		C97F67D91C1DC0C600427CDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C97F67D71C1DC0C600427CDE /* LaunchScreen.storyboard */; };
+		C97F67E41C1DC0C600427CDE /* MusicShareTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C97F67E31C1DC0C600427CDE /* MusicShareTests.m */; };
+		C97F67EF1C1DC0C600427CDE /* MusicShareUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C97F67EE1C1DC0C600427CDE /* MusicShareUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C97F67E01C1DC0C600427CDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C97F67BE1C1DC0C600427CDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C97F67C51C1DC0C600427CDE;
+			remoteInfo = MusicShare;
+		};
+		C97F67EB1C1DC0C600427CDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C97F67BE1C1DC0C600427CDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C97F67C51C1DC0C600427CDE;
+			remoteInfo = MusicShare;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C97F67C61C1DC0C600427CDE /* MusicShare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicShare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C97F67CA1C1DC0C600427CDE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C97F67CC1C1DC0C600427CDE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C97F67CD1C1DC0C600427CDE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C97F67CF1C1DC0C600427CDE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C97F67D01C1DC0C600427CDE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C97F67D31C1DC0C600427CDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C97F67D51C1DC0C600427CDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C97F67D81C1DC0C600427CDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C97F67DA1C1DC0C600427CDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C97F67DF1C1DC0C600427CDE /* MusicShareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicShareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C97F67E31C1DC0C600427CDE /* MusicShareTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicShareTests.m; sourceTree = "<group>"; };
+		C97F67E51C1DC0C600427CDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C97F67EA1C1DC0C600427CDE /* MusicShareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicShareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C97F67EE1C1DC0C600427CDE /* MusicShareUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicShareUITests.m; sourceTree = "<group>"; };
+		C97F67F01C1DC0C600427CDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C97F67C31C1DC0C600427CDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C97F67DC1C1DC0C600427CDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C97F67E71C1DC0C600427CDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C97F67BD1C1DC0C600427CDE = {
+			isa = PBXGroup;
+			children = (
+				C97F67C81C1DC0C600427CDE /* MusicShare */,
+				C97F67E21C1DC0C600427CDE /* MusicShareTests */,
+				C97F67ED1C1DC0C600427CDE /* MusicShareUITests */,
+				C97F67C71C1DC0C600427CDE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C97F67C71C1DC0C600427CDE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C97F67C61C1DC0C600427CDE /* MusicShare.app */,
+				C97F67DF1C1DC0C600427CDE /* MusicShareTests.xctest */,
+				C97F67EA1C1DC0C600427CDE /* MusicShareUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C97F67C81C1DC0C600427CDE /* MusicShare */ = {
+			isa = PBXGroup;
+			children = (
+				C97F67CC1C1DC0C600427CDE /* AppDelegate.h */,
+				C97F67CD1C1DC0C600427CDE /* AppDelegate.m */,
+				C97F67CF1C1DC0C600427CDE /* ViewController.h */,
+				C97F67D01C1DC0C600427CDE /* ViewController.m */,
+				C97F67D21C1DC0C600427CDE /* Main.storyboard */,
+				C97F67D51C1DC0C600427CDE /* Assets.xcassets */,
+				C97F67D71C1DC0C600427CDE /* LaunchScreen.storyboard */,
+				C97F67DA1C1DC0C600427CDE /* Info.plist */,
+				C97F67C91C1DC0C600427CDE /* Supporting Files */,
+			);
+			path = MusicShare;
+			sourceTree = "<group>";
+		};
+		C97F67C91C1DC0C600427CDE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C97F67CA1C1DC0C600427CDE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C97F67E21C1DC0C600427CDE /* MusicShareTests */ = {
+			isa = PBXGroup;
+			children = (
+				C97F67E31C1DC0C600427CDE /* MusicShareTests.m */,
+				C97F67E51C1DC0C600427CDE /* Info.plist */,
+			);
+			path = MusicShareTests;
+			sourceTree = "<group>";
+		};
+		C97F67ED1C1DC0C600427CDE /* MusicShareUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C97F67EE1C1DC0C600427CDE /* MusicShareUITests.m */,
+				C97F67F01C1DC0C600427CDE /* Info.plist */,
+			);
+			path = MusicShareUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C97F67C51C1DC0C600427CDE /* MusicShare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C97F67F31C1DC0C600427CDE /* Build configuration list for PBXNativeTarget "MusicShare" */;
+			buildPhases = (
+				C97F67C21C1DC0C600427CDE /* Sources */,
+				C97F67C31C1DC0C600427CDE /* Frameworks */,
+				C97F67C41C1DC0C600427CDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MusicShare;
+			productName = MusicShare;
+			productReference = C97F67C61C1DC0C600427CDE /* MusicShare.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C97F67DE1C1DC0C600427CDE /* MusicShareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C97F67F61C1DC0C600427CDE /* Build configuration list for PBXNativeTarget "MusicShareTests" */;
+			buildPhases = (
+				C97F67DB1C1DC0C600427CDE /* Sources */,
+				C97F67DC1C1DC0C600427CDE /* Frameworks */,
+				C97F67DD1C1DC0C600427CDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C97F67E11C1DC0C600427CDE /* PBXTargetDependency */,
+			);
+			name = MusicShareTests;
+			productName = MusicShareTests;
+			productReference = C97F67DF1C1DC0C600427CDE /* MusicShareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C97F67E91C1DC0C600427CDE /* MusicShareUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C97F67F91C1DC0C600427CDE /* Build configuration list for PBXNativeTarget "MusicShareUITests" */;
+			buildPhases = (
+				C97F67E61C1DC0C600427CDE /* Sources */,
+				C97F67E71C1DC0C600427CDE /* Frameworks */,
+				C97F67E81C1DC0C600427CDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C97F67EC1C1DC0C600427CDE /* PBXTargetDependency */,
+			);
+			name = MusicShareUITests;
+			productName = MusicShareUITests;
+			productReference = C97F67EA1C1DC0C600427CDE /* MusicShareUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C97F67BE1C1DC0C600427CDE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = MACT;
+				TargetAttributes = {
+					C97F67C51C1DC0C600427CDE = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					C97F67DE1C1DC0C600427CDE = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = C97F67C51C1DC0C600427CDE;
+					};
+					C97F67E91C1DC0C600427CDE = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = C97F67C51C1DC0C600427CDE;
+					};
+				};
+			};
+			buildConfigurationList = C97F67C11C1DC0C600427CDE /* Build configuration list for PBXProject "MusicShare" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C97F67BD1C1DC0C600427CDE;
+			productRefGroup = C97F67C71C1DC0C600427CDE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C97F67C51C1DC0C600427CDE /* MusicShare */,
+				C97F67DE1C1DC0C600427CDE /* MusicShareTests */,
+				C97F67E91C1DC0C600427CDE /* MusicShareUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C97F67C41C1DC0C600427CDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C97F67D91C1DC0C600427CDE /* LaunchScreen.storyboard in Resources */,
+				C97F67D61C1DC0C600427CDE /* Assets.xcassets in Resources */,
+				C97F67D41C1DC0C600427CDE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C97F67DD1C1DC0C600427CDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C97F67E81C1DC0C600427CDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C97F67C21C1DC0C600427CDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C97F67D11C1DC0C600427CDE /* ViewController.m in Sources */,
+				C97F67CE1C1DC0C600427CDE /* AppDelegate.m in Sources */,
+				C97F67CB1C1DC0C600427CDE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C97F67DB1C1DC0C600427CDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C97F67E41C1DC0C600427CDE /* MusicShareTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C97F67E61C1DC0C600427CDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C97F67EF1C1DC0C600427CDE /* MusicShareUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C97F67E11C1DC0C600427CDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C97F67C51C1DC0C600427CDE /* MusicShare */;
+			targetProxy = C97F67E01C1DC0C600427CDE /* PBXContainerItemProxy */;
+		};
+		C97F67EC1C1DC0C600427CDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C97F67C51C1DC0C600427CDE /* MusicShare */;
+			targetProxy = C97F67EB1C1DC0C600427CDE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C97F67D21C1DC0C600427CDE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C97F67D31C1DC0C600427CDE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C97F67D71C1DC0C600427CDE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C97F67D81C1DC0C600427CDE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C97F67F11C1DC0C600427CDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C97F67F21C1DC0C600427CDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C97F67F41C1DC0C600427CDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MusicShare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mact.MusicShare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C97F67F51C1DC0C600427CDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MusicShare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mact.MusicShare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C97F67F71C1DC0C600427CDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MusicShareTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mact.MusicShareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MusicShare.app/MusicShare";
+			};
+			name = Debug;
+		};
+		C97F67F81C1DC0C600427CDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MusicShareTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mact.MusicShareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MusicShare.app/MusicShare";
+			};
+			name = Release;
+		};
+		C97F67FA1C1DC0C600427CDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MusicShareUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mact.MusicShareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MusicShare;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C97F67FB1C1DC0C600427CDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MusicShareUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mact.MusicShareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MusicShare;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C97F67C11C1DC0C600427CDE /* Build configuration list for PBXProject "MusicShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C97F67F11C1DC0C600427CDE /* Debug */,
+				C97F67F21C1DC0C600427CDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C97F67F31C1DC0C600427CDE /* Build configuration list for PBXNativeTarget "MusicShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C97F67F41C1DC0C600427CDE /* Debug */,
+				C97F67F51C1DC0C600427CDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C97F67F61C1DC0C600427CDE /* Build configuration list for PBXNativeTarget "MusicShareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C97F67F71C1DC0C600427CDE /* Debug */,
+				C97F67F81C1DC0C600427CDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C97F67F91C1DC0C600427CDE /* Build configuration list for PBXNativeTarget "MusicShareUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C97F67FA1C1DC0C600427CDE /* Debug */,
+				C97F67FB1C1DC0C600427CDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C97F67BE1C1DC0C600427CDE /* Project object */;
+}
